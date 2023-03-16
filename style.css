@@ -68,7 +68,6 @@ body {
 .header .header-bottom > .container .h_menu4 ul.nav {
   height: 100%;
   align-items: center;
-  border: 1px solid green;
   display: flex;
   justify-content: space-around;
 }

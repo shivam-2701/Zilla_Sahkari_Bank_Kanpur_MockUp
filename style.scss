@@ -70,7 +70,7 @@ body {
         ul.nav {
           height: 100%;
           align-items: center;
-          border: 1px solid green;
+          // border: 1px solid green;
           display: flex;
           justify-content: space-around;
           li {
@@ -239,27 +239,27 @@ body {
       .col-md-3-left {
         width: 25%;
 
-        .single-bottom{
+        .single-bottom {
           height: 100%;
-          ul{
+          ul {
             display: flex;
             // border: 1px solid red;
-            padding: .25rem .25rem;
+            padding: 0.25rem 0.25rem;
             flex-direction: column;
-            li{
-              padding-block: .75rem;
+            li {
+              padding-block: 0.75rem;
             }
             justify-content: space-between;
           }
         }
         li {
           list-style: none;
-          a{
+          a {
             display: flex;
             align-items: center;
             text-decoration: none;
             color: #747272;
-            column-gap: .5rem;
+            column-gap: 0.5rem;
           }
           i {
             background: url(./images/img-sprite.png) no-repeat -60px -66px;
