@@ -9,6 +9,12 @@ body {
   line-height: 1.42857143;
   color: #333;
 }
+:root {
+  --body-width: 82.25rem;
+}
+
+
+
 
 .header {
   display: flex;
@@ -57,20 +63,17 @@ body {
 
     & > .container {
       padding-right: 15px;
-      width: 75vw;
+      width: var(--body-width);
       height: 2.5rem;
       padding-left: 15px;
       margin-right: auto;
       display: flex;
       margin-left: auto;
-      // border: 1px solid red;
       .h_menu4 {
         width: 100%;
-        // border: 1px solid blue;
         ul.nav {
           height: 100%;
           align-items: center;
-          // border: 1px solid green;
           display: flex;
           justify-content: space-around;
           li {
@@ -143,7 +146,7 @@ body {
   & > .container {
     // border: 1px solid red;
     height: 100%;
-    width: 75vw;
+    width: var(--body-width);
     overflow: hidden;
     display: flex;
     .banner {
@@ -189,7 +192,7 @@ body {
 
 .info-container {
   display: flex;
-  width: 75vw;
+  width: var(--body-width);
   margin-inline: auto;
   margin-block: 0.75rem;
 
@@ -357,11 +360,11 @@ body {
   .footer-middle {
     display: flex;
     color: white;
-    width: 100vw;
+    width: 100%;
     background-image: linear-gradient(to bottom, #45484d, #000000);
     justify-content: center;
     align-items: center;
-    height: 27vh;
+    height: 1.9rem;
     padding-top: 0.75rem auto;
     & > .container {
       width: 80%;
