@@ -10,7 +10,18 @@ body {
   color: #333;
 }
 :root {
-  --body-width: 82.25rem;
+  --body-width:75vw;
+}
+
+@media (max-width:1210px) {
+   :root{
+    --body-width:90vw;
+   }
+}
+@media (max-width:960px) {
+  :root{
+   --body-width:70%;
+  }
 }
 
 
@@ -364,7 +375,7 @@ body {
     background-image: linear-gradient(to bottom, #45484d, #000000);
     justify-content: center;
     align-items: center;
-    height: 1.9rem;
+    height: 11rem;
     padding-top: 0.75rem auto;
     & > .container {
       width: 80%;
